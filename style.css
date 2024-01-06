@@ -135,7 +135,57 @@ main{
     align-items: center;
     padding: 0px 200px;
 }
+.about-selection {
+    margin: 100px 0px;
+    
+}
+.abouttitle{
+    padding: 100px 0px;
+    background-color: #FFF8F3;
+}
+.about  h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+.about p{
+    width: 800px;
+    text-align:center;
+    font-size: 18px;
+    color: #1E1E1E;
+    line-height: 34px;
+    margin: auto;
+    
 
+}
+.about-card{
+    margin: auto;
+    width: 800px;
+}
+.about-card ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.about-card ul li{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #1E1E1E;
+    font-weight: 400;
+    list-style: 24px;
+}
+.about-card ul li p{
+    font-size: 18px;
+    color: #1E1E1E;
+    font-weight: 800;
+    list-style: 24px;
+    text-align: center;
+}
 
 
 /**Main selection end **/
