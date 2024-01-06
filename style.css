@@ -188,6 +188,8 @@ main{
 }
 /*what do i do selection***/
 .what-content{
+    align-items: center;
+    padding: 0px 200px;
 
 }
 .what-content h3{
@@ -238,4 +240,85 @@ main{
     line-height: 26px;
 
 }
+/**summary-section selection**/
+.summary-section{
+    align-items: center;
+  
+
+}
+.summery-title{
+    margin: 100px 0px;
+}
+.summery-title h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+.summer-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card-summer{
+    align-items: center;
+}
+.card-summer h4{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 0px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.card-summer ul{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px 25px 0px;
+}
+.card-summer ul h5{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0px;
+    font-weight: 600;
+    color: #1E1E1E;
+
+}
+
+.card-summer ul p{
+    width: 500px;
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0px;
+    font-weight: 400;
+    color: #1E1E1E;
+ 
+
+}
+.card-summer ul hr{
+    margin-top: 20px;
+}
+.btn-sumeer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.summery-btn{
+    font-size: 16px;
+
+    background-color: #FD6E0A;
+    padding: 20px 25px;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: 3s all ease;
+  
+}
+
 /**Main selection end **/
