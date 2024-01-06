@@ -13,7 +13,11 @@ body{
 }
 /***header selection*/
 .header{
-    background-color: wheat;
+    background-color: #FFF8F3;
+    background-image: url("./images/header_bg.png"),url("./images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left ;
+    padding: 0px 20px;
 
 
 }
@@ -66,19 +70,46 @@ ul li .primry-btn{
     color: white;
     border-radius: 5px;
 }
-main{
-    background-color:wheat ;
-    background-image: url("./images/header_bg.png");
-    background-size: cover;
-    background-position: bottom right;
-
-}
-
-/*** main selection***/
-main{
+.banner{
     display: flex;
     align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px 0px 180px;
 }
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+    margin: auto;
+}
+.branding-content{
+    align-items: center;
+    font-size: 45px;
+    font-weight: 600;
+   
+}
+.branding-content h1{
+    font-size: 85px;
+    font-weight: 800;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+.branding-content h3{
+    align-items: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.branding-content p{
+    width: 585px;
+    font-size: 16px;
+    color: #1E1E1E;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
 .branding-btn{
     font-size: 16px;
    
@@ -89,6 +120,8 @@ main{
     font-weight: 600;
     color: white;
     border-radius: 5px;
+    overflow: hidden;
+    transform: 3s all ease;
 }
 .branding-btn:hover{
     background-color: white;
@@ -97,4 +130,12 @@ main{
 
 }
 
+/**Main selection start**/
+main{
+    align-items: center;
+    padding: 0px 200px;
+}
 
+
+
+/**Main selection end **/
